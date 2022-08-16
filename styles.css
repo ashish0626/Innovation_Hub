@@ -183,3 +183,12 @@ body {
 select:invalid {
     color: gray;
 }
+
+.back-button{
+    background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  cursor: pointer;
+  margin-right: 10px;
+}
