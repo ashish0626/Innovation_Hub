@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="home-page-content">
+    <div class="page-content">
         <header
             class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 px-4 ">
             <a href="/home.html" class="align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">
@@ -44,7 +44,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item d-flex gap-2 align-items-center" href="./ai-data.html">
+                            <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
                                 <svg width="10" height="10">
                                     <rect width="10" height="10" style="fill:rgb(8,204,252)" />
                                 </svg>
@@ -98,64 +98,95 @@
             </div>
         </header>
 
-        <div class="container py-5 hero-element">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-lg-6 responsive-text">
-                    <span class="display-5 fw-bold lh-1 mb-3 text-white" style="font-size: 4em; display: block;">HPE
-                        Innovation Studio</span>
-                    <p class="lead text-white fw-light" style="text-align: justify; font-size: 1.2em;">In publishing and graphic design,
-                        Lorem ipsum is a placeholder text
-                        commonly used to demonstrate the visual form of a document or a typeface without relying on
-                        meaningful content.
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 pt-4 pt-lg-4 text-white">
+                    <h2 class="fw-bold"><button class="back-button" onclick="history.back()"><img
+                                src="./assets/images/arrow-left-solid.svg" style="width:0.9em; height:0.9em;"
+                                alt="left-arrow"></button>Predictive & Prescriptive Analytics</h2>
+                    <p style="text-align: justify; font-size: 1.1em;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, sapien tincidunt
+                        tincidunt semper, orci mauris auctor purus, et vestibulum libero lacus a ligula. Duis vel
+                        facilisis libero, at
+                        vehicula nibh. Curabitur interdum enim eu elit mollis, vel blandit urna iaculis. Proin ac
+                        molestie nunc. Quisque bibendum sapien vel magna sodales, id consequat erat congue. Aliquam nec
+                        ex et
+                        nisi congue vulputate. Cras dui libero, semper in luctus non, dictum a leo. Vestibulum diam
+                        augue, auctor eu ante quis, rhoncus condimentum orci. Nam viverra ut lectus vitae convallis.
+                        Maecenas sit amet magna nec nisl accumsan condimentum non vel lectus. Etiam ac pretium massa.
+                        Nullam molestie sapien vel enim molestie, non scelerisque urna tincidunt. Suspe
+
+                    <ul style="font-size: 1.1em;">
+
+                        <li>Analysis the existing portfolio measuring the technical quality and business value.
+                            Confronting the technical quality with business goals to define the right strategy replace,
+                            no go, low</li>
+                        <li>Identify stakeholders all persons involved in the software modernization developers,
+                            testers, customers, end-users, architect</li>
+                        <li>Create the Business Case the business case supports the decision process in considering
+                            different approaches when decision makers need it</li>
+                        <li>Analysis the existing portfolio measuring the technical quality and business value.
+                            Confronting the technical quality with business goals to define the right strategy replace,
+                            no go, low</li>
+                        <li>Identify stakeholders all persons involved in the software modernization developers,
+                            testers, customers, end-users, architects</li>
+                    </ul>
                     </p>
-                    <div class="d-grid gap-2 d-flex justify-content-md-start">                        
-                        <a href="./about.html" class="btn btn-lg px-4 home-button" role="button">Read About Us</a>
-                        <button type="button" class="btn btn-lg px-4 home-button" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Request a POC</button>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <h4 class="text-white fw-bold">POCs</h4>
+
+                <div class="col-md-4 vertical-nav-pills">
+                    <div class=" align-items-start">
+                        <div class="nav nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link domain-button active" id="v-pills-1-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1"
+                                aria-selected="true">Customer Deduplication
+                                </button>
+                            <button class="nav-link domain-button" id="v-pills-2-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2"
+                                aria-selected="false">Named Entity Using Spacy</button>
+                            <button class="nav-link domain-button" id="v-pills-3-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3"
+                                aria-selected="false">Article Summarizer
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-8 vertical-nav-pills-tab">
+
+                    <div class="tab-content text-white" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
+                            aria-labelledby="v-pills-1-tab">
+
+                            <h5>Improve Customer Experiences with <span style="color: rgb(113, 164, 242);">Customer Deduplication</span></h5>
+
+                            <p>Legacy modernization, also known as software modernization or platform modernization,
+                                refers to the conversion, rewriting or
+                                porting of a legacy system to modern computer programming languages, architectures,
+                                software libraries, protocols or hardware
+                                platforms</p>
+
+                            <a href="./customer-deduplication.html" class="btn btn-lg px-4 home-button " style="margin-top: 15px;"role="button">Explore Customer Deduplication</a>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">2
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">3
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal -->
-        <div class="modal  py-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content rounded-2 shadow">
-                    <div class="modal-header px-4 py-3 pb-4 border-bottom-0">
-                        <h4 class="fw-bold mb-0">Request a POC</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
 
-                    <div class="modal-body p-4 pt-0">
-                        <form class="">
-                            <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Select Practice</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Select Domain</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
-                                    style="min-height: 200px;"></textarea>
-                                <label for="floatingInput">Explain the POC Requirement</label>
-                            </div>
-                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit"
-                                style="background-color: #01A982;">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <footer class="py-2" style="background-color: black;">

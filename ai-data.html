@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="home-page-content">
+    <div class="page-content">
         <header
             class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 px-4 ">
             <a href="/home.html" class="align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">
@@ -44,7 +44,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item d-flex gap-2 align-items-center" href="./ai-data.html">
+                            <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
                                 <svg width="10" height="10">
                                     <rect width="10" height="10" style="fill:rgb(8,204,252)" />
                                 </svg>
@@ -98,64 +98,97 @@
             </div>
         </header>
 
-        <div class="container py-5 hero-element">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-lg-6 responsive-text">
-                    <span class="display-5 fw-bold lh-1 mb-3 text-white" style="font-size: 4em; display: block;">HPE
-                        Innovation Studio</span>
-                    <p class="lead text-white fw-light" style="text-align: justify; font-size: 1.2em;">In publishing and graphic design,
-                        Lorem ipsum is a placeholder text
-                        commonly used to demonstrate the visual form of a document or a typeface without relying on
-                        meaningful content.
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 pt-4 pt-lg-4 text-white">
+                    <h2 class="fw-bold">
+                        <button class="back-button" onclick="history.back()"><img
+                                src="./assets/images/arrow-left-solid.svg" style="width:0.9em; height:0.9em;"
+                                alt="left-arrow"></button>AI & Data
+                    </h2>
+                    <img src="./assets/images/Group 5.png" class="float-end px-4"
+                        style="max-height: 40vh; max-width: 100%;" alt="">
+                    <p style="text-align: justify; font-size: 1.1em;">
+                        AI & Data refers to a mixed computing, storage, and services environment made up
+                        of on-premises
+                        infrastructure, private cloud services, and a public cloud with orchestration among
+                        the various platforms.
+                        Using a combination of public clouds, on-premises computing, and private clouds in
+                        your data center means that you have a hybrid cloud inftastructure.
+
+                    <ul style="font-size: 1.1em;">
+                        <li>Bring the cloud experience to your non-cloud-native app</li>
+                        <li>Containerize monolithic applications to improve efficiency, increase agiliTy,
+                            and provide portability—
+                            rebuilding and refactoring apps that need to move to the cloud</li>
+                        <li>Shift To agile DevOps processes with HPE Pointnext Services</li>
+                        <li>Streamline your development process and leverage microservices to quickly build
+                            and deploy
+                            applications</li>
+                    </ul>
                     </p>
-                    <div class="d-grid gap-2 d-flex justify-content-md-start">                        
-                        <a href="./about.html" class="btn btn-lg px-4 home-button" role="button">Read About Us</a>
-                        <button type="button" class="btn btn-lg px-4 home-button" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Request a POC</button>
+                </div>
+
+                <div style="text-align: left;" class="col-lg-5">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <h4 class="text-white fw-bold">Sub-Domains</h4>
+
+                <div class="col-md-4 vertical-nav-pills">
+                    <div class=" align-items-start">
+                        <div class="nav nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link domain-button active" id="v-pills-1-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1"
+                                aria-selected="true">Predictive & Prescriptive Analytics</button>
+                            <button class="nav-link domain-button" id="v-pills-2-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2"
+                                aria-selected="false">NLP</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-8 vertical-nav-pills-tab">
+
+                    <div class="tab-content text-white" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
+                            aria-labelledby="v-pills-1-tab">
+
+                            <h5>Improve Customer Experiences with <span style="color: rgb(113, 164, 242);">Predictive & Prescriptive Analytics</span></h5>
+
+                            <p>Legacy modernization, also known as software modernization or platform modernization,
+                                refers to the conversion, rewriting or
+                                porting of a legacy system to modern computer programming languages, architectures,
+                                software libraries, protocols or hardware
+                                platforms</p>
+
+                            <a href="./predictive-analysis.html" class="btn btn-lg px-4 home-button "
+                                style="margin-top: 15px;" role="button">Explore Predictive & Prescriptive Analytics</a>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab"><h5>Improve Customer Experiences with <span style="color: rgb(113, 164, 242);">NLP</span></h5>
+
+                            <p>Legacy modernization, also known as software modernization or platform modernization,
+                                refers to the conversion, rewriting or
+                                porting of a legacy system to modern computer programming languages, architectures,
+                                software libraries, protocols or hardware
+                                platforms</p>
+
+                            <a href="#" class="btn btn-lg px-4 home-button "
+                                style="margin-top: 15px;" role="button">Explore NLP</a>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal -->
-        <div class="modal  py-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content rounded-2 shadow">
-                    <div class="modal-header px-4 py-3 pb-4 border-bottom-0">
-                        <h4 class="fw-bold mb-0">Request a POC</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
 
-                    <div class="modal-body p-4 pt-0">
-                        <form class="">
-                            <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Select Practice</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Select Domain</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
-                                    style="min-height: 200px;"></textarea>
-                                <label for="floatingInput">Explain the POC Requirement</label>
-                            </div>
-                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit"
-                                style="background-color: #01A982;">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <footer class="py-2" style="background-color: black;">
